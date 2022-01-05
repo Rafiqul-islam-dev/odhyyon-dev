@@ -31,4 +31,11 @@ class FontendContact extends Controller
 
         return redirect()->back()->with(['message' => 'Your Message has been sent']);;
     }
+
+
+    public function emailList()
+    {
+        $contact = Contact::all();
+        return view('backend.contactList', compact('contact'));
+    }
 }

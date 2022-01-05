@@ -4,7 +4,7 @@
     <head>
        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <title>Annex - Responsive Bootstrap 4 Admin Dashboard</title>
+        <title>Odhyyon- Login</title>
         <meta content="Admin Dashboard" name="description" />
         <meta content="Mannatthemes" name="author" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />

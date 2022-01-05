@@ -2184,6 +2184,7 @@ h4 {
 }
 .newsEvent {
     position: relative;
+    /* margin-top: 40px; */
 }
 .header-image {
     width: 80%;

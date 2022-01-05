@@ -55,6 +55,7 @@ Route::get('/deletnews/{id}', [NewsEventController::class, 'deletnews'])->name('
 
 //Contact Us Daynamic
 Route::post('/inquery', [FontendContact::class, 'inqueryodhyyon'])->name('inquery');
+Route::get('/emailList', [FontendContact::class, 'emailList'])->name('emailList');
 
 
 

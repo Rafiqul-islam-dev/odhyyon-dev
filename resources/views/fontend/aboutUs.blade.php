@@ -1,7 +1,7 @@
 @extends('fontend.layout.masterLayout')
 @section('content')
 
-<main class="main">
+    <main class="main">
         <!--==================== About Header ====================-->
         <section id="about-us">
             <div class="container">
@@ -22,29 +22,29 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="slider-arrows">
-                            <img class="left" src="{{ asset ('image/fontend/img/slide-right.svg')}}" alt="">
-                            <img class="right" src="{{ asset ('image/fontend/img/slide-left.svg')}}" alt="">
+                            <img class="left" src="{{ asset('image/fontend/img/slide-right.svg') }}" alt="">
+                            <img class="right" src="{{ asset('image/fontend/img/slide-left.svg') }}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-12">
                         <div class="about-slider responsive">
                             <div class="slider-img">
-                                <img src="{{ asset ('image/fontend/img/about/aggriment.jpg')}}" alt="">
+                                <img src="{{ asset('image/fontend/img/about/aggriment.jpg') }}" alt="">
                             </div>
                             <div class="slider-img">
-                                <img src="{{ asset ('image/fontend/img/about/aggriment1.jpg')}}" alt="">
+                                <img src="{{ asset('image/fontend/img/about/aggriment1.jpg') }}" alt="">
                             </div>
                             <div class="slider-img">
-                                <img src="{{ asset ('image/fontend/img/about/aggriment2.jpg')}}" alt="">
+                                <img src="{{ asset('image/fontend/img/about/aggriment2.jpg') }}" alt="">
                             </div>
                             <div class="slider-img">
-                                <img src="{{ asset ('image/fontend/img/about/aggriment3.jpg')}}" alt="">
+                                <img src="{{ asset('image/fontend/img/about/aggriment3.jpg') }}" alt="">
                             </div>
                             <div class="slider-img">
-                                <img src="{{ asset ('image/fontend/img/about/aggriment4.jpg')}}" alt="">
+                                <img src="{{ asset('image/fontend/img/about/aggriment4.jpg') }}" alt="">
                             </div>
                             <div class="slider-img">
-                                <img src="{{ asset ('image/fontend/img/about/aggriment1.jpg')}}" alt="">
+                                <img src="{{ asset('image/fontend/img/about/aggriment1.jpg') }}" alt="">
                             </div>
                         </div>
 
@@ -87,16 +87,16 @@
                     <div class="col-lg-12">
                         <div class="centerSlider">
                             <div class="centeSlider-img">
-                                <img src="{{ asset ('image/fontend/img/about/aggriment.jpg')}}" alt="">
+                                <img src="{{ asset('image/fontend/img/about/aggriment.jpg') }}" alt="">
                             </div>
                             <div class="centeSlider-img">
-                                <img src="{{ asset ('image/fontend/img/about/aggriment1.jpg')}}" alt="">
+                                <img src="{{ asset('image/fontend/img/about/aggriment1.jpg') }}" alt="">
                             </div>
                             <div class="centeSlider-img">
-                                <img src="{{ asset ('image/fontend/img/about/aggriment2.jpg')}}" alt="">
+                                <img src="{{ asset('image/fontend/img/about/aggriment2.jpg') }}" alt="">
                             </div>
                             <div class="centeSlider-img">
-                                <img src="{{ asset ('image/fontend/img/about/aggriment3.jpg')}}" alt="">
+                                <img src="{{ asset('image/fontend/img/about/aggriment3.jpg') }}" alt="">
                             </div>
                         </div>
                     </div>
@@ -111,7 +111,7 @@
                     <div class="col-lg-12">
                         <div class="mission">
                             <div class="mission-image">
-                                <img src="{{ asset ('image/fontend/img/about/aggriment.jpg')}}" alt="">
+                                <img src="{{ asset('image/fontend/img/about/aggriment.jpg') }}" alt="">
                             </div>
                             <div class="mission-content">
                                 <h3>Our Mission</h3>
@@ -154,7 +154,7 @@
 
                             </div>
                             <div class="mission-image vission-image">
-                                <img src="{{ asset ('image/fontend/img/about/aggriment.jpg')}}" alt="">
+                                <img src="{{ asset('image/fontend/img/about/aggriment.jpg') }}" alt="">
                             </div>
 
                         </div>
@@ -171,15 +171,15 @@
                         <div class=" about-award">
                             <div class="award-item">
                                 <p>Proud Member</p>
-                                <img src="{{ asset ('image/fontend/img/proud.svg')}}" alt="">
+                                <img src="{{ asset('image/fontend/img/proud.svg') }}" alt="">
                             </div>
                             <div class="award-item">
                                 <p>Award & Accolades</p>
-                                <img src="{{ asset ('image/fontend/img/award.svg')}}" alt="">
+                                <img src="{{ asset('image/fontend/img/award.svg') }}" alt="">
                             </div>
                             <div class="award-item">
                                 <p>Certification</p>
-                                <img src="{{ asset ('image/fontend/img/certificate.svg')}}" alt="">
+                                <img src="{{ asset('image/fontend/img/certificate.svg') }}" alt="">
                             </div>
                         </div>
                     </div>
@@ -189,4 +189,3 @@
     </main>
 
 @endsection
-

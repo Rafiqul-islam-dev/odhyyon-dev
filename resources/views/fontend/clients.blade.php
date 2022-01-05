@@ -8,12 +8,12 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="client-header">
-                            <h2>Projects that speak about <br> our versatility</h2>
-                            <p>we' re leading software professionals to success <br> one connection at a time</p>
+                            <h2>Stories That Defined Our Success</h2>
+                            <p>Odhyyon ERP is proud to impact over 500+ educational <br> institutions-all around Bangladesh.
+                            </p>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
 
         <!--==================== Clients Content ====================-->

@@ -72,7 +72,7 @@
             autoplay: true,
             coverflowEffect: {
                 rotate: 0,
-                stretch: 0,
+                stretch: 30,
                 depth: 100,
                 modifier: 3,
                 slideShadows: true,
@@ -105,6 +105,19 @@
             centerPadding: '0px',
         });
     </script>
+    <script>
+        $('.event-slider').slick({
+            slidesToShow: 1,
+            dots: true,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            centerMode: true,
+            arrows: false,
+            centerPadding: '0px',
+        });
+    </script>
+
 
 
 </body>

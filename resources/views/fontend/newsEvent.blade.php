@@ -8,14 +8,19 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="newsEvent">
-                            <div class="header-image">
-                                <img src="{{ asset('image/fontend/img/events/event5.jpeg') }}" alt="">
+                            <div class="event-slider">
+                                @foreach ($news as $iteam)
+                                    <div class="header-image">
+                                        <img src="{{ URL::to($iteam->image) }}" alt="">
+                                    </div>
+                                @endforeach
                             </div>
+
                             <div class="admin">
                                 <div class="admin-event">
                                     <div class="admin-details">
                                         <p>Admin | November 2, 2021</p>
-                                        <p>1/3</p>
+                                        <p>5/0</p>
                                     </div>
                                     <h4>We’re leading software professionals to success,</h4>
                                     <a href="">Read More <img src="{{ asset('image/fontend/img/arrow-right.svg') }}"
