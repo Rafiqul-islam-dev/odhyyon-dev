@@ -27,6 +27,7 @@
                     <li><a href="{{ Route('clients') }}">Client View</a></li>
                     <li><a href="{{ Route('newsEvent') }}">News Event View</a></li>
                     <li><a href="{{ Route('emailList') }}">Contact Email</a></li>
+                    <li><a href="{{ Route('aboutUs') }}">About Us</a></li>
 
                 </ul>
             </li>

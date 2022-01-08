@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FontendController;
 use App\Http\Controllers\Backend\ClientsController;
 use App\Http\Controllers\Backend\NewsEventController;
+use App\Http\Controllers\Backend\aboutUsController;
 use App\Http\Controllers\Backend\FontendContact;
 use App\Models\NewsEvent;
 use App\Models\Clients;
@@ -52,6 +53,13 @@ Route::post('/updateNewsEvent/{id}', [NewsEventController::class, 'updateNewsEve
 Route::get('/deletnews/{id}', [NewsEventController::class, 'deletnews'])->name('deletnews');
 
 
+
+// aboutUs Controller NewsEvent
+Route::get('/aboutUs', [aboutUsController::class, 'index'])->name('aboutUs');
+Route::post('/addaboutUs', [aboutUsController::class, 'addaboutUs'])->name('addaboutUs');
+Route::get('/editaboutUs/{id}', [aboutUsController::class, 'editaboutUs'])->name('editaboutUs');
+Route::post('/updateaboutUs/{id}', [aboutUsController::class, 'updateNewsEvent'])->name('updateaboutUs');
+Route::get('/deletaboutUs/{id}', [aboutUsController::class, 'deletaboutUs'])->name('deletaboutUs');
 
 //Contact Us Daynamic
 Route::post('/inquery', [FontendContact::class, 'inqueryodhyyon'])->name('inquery');

@@ -18,6 +18,8 @@
         type="text/css" />
     <link href="{{ asset('js/backend/plugins/datatables/buttons.bootstrap4.min.css') }}" rel="stylesheet"
         type="text/css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.css" rel="stylesheet">
     <!-- Responsive datatable examples -->
     <link href="{{ asset('js/backend/plugins/datatables/responsive.bootstrap4.min.css') }}" rel="stylesheet"
         type="text/css" />
@@ -145,12 +147,38 @@
     <script src="{{ asset('js/backend/plugins/datatables/dataTables.responsive.min.js') }}"></script>
     <script src="{{ asset('js/backend/plugins/datatables/responsive.bootstrap4.min.js') }}"></script>
     <!-- Datatable init js -->
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.js"></script>
+
     <script src="{{ asset('js/backend/pages/datatables.init.js') }}"></script>
     <!-- App js -->
 
-
-
     <script src="{{ asset('js/backend/js/app.js') }}"></script>
+
+    <script>
+        $('#summernote').summernote({
+            placeholder: 'Write Here',
+            tabsize: 2,
+            height: 100
+        });
+    </script>
+    <script>
+        $('#summernoteOne').summernote({
+            placeholder: 'Write Here',
+            tabsize: 2,
+            height: 100
+        });
+    </script>
+    <script>
+        $('#summernoteTwo').summernote({
+            placeholder: 'Write Here',
+            tabsize: 2,
+            height: 100
+        });
+    </script>
     <script type="text/javascript">
         $(document).ready(function() {
             $("#datatable2").DataTable();
