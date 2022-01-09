@@ -54,8 +54,8 @@
                                     <span>{{ $item->priceType == 1 ? 'Pay per Student' : 'Monthly Subscription' }}</span>
                                     <h6>{{ $item->title }}</h6>
                                     <p>{{ $item->description }}</p>
-                                    <a href="#">Read More <img src="{{ asset('image/fontend/img/arrow-right.svg') }}"
-                                            alt=""></a>
+                                    <a href="{{ route('moreDetailsClients', $item->id) }}">Read More <img
+                                            src="{{ asset('image/fontend/img/arrow-right.svg') }}" alt=""></a>
                                 </div>
                             @endif
                         @endforeach

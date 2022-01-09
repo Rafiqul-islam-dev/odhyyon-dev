@@ -39,4 +39,10 @@ class FontendController extends Controller
     {
         return view('fontend.contactUs');
     }
+
+    public function moreDetailsClients(Request $request, $id)
+    {
+        $clients = Clients::find($id);
+        return view('fontend.clientsDetails', compact('clients'));
+    }
 }

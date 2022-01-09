@@ -30,6 +30,7 @@ Route::get('/Clients', [FontendController::class, 'clients'])->name('Clients');
 Route::get('/News-Events', [FontendController::class, 'newsEvents'])->name('News-Events');
 Route::get('/About-us', [FontendController::class, 'aboutus'])->name('About-us');
 Route::get('/Contact-us', [FontendController::class, 'contactUs'])->name('Contact-us');
+Route::get('/moreDetailsClients/{id}', [FontendController::class, 'moreDetailsClients'])->name('moreDetailsClients');
 
 
 
@@ -60,6 +61,8 @@ Route::post('/addaboutUs', [aboutUsController::class, 'addaboutUs'])->name('adda
 Route::get('/editaboutUs/{id}', [aboutUsController::class, 'editaboutUs'])->name('editaboutUs');
 Route::post('/updateaboutUs/{id}', [aboutUsController::class, 'updateNewsEvent'])->name('updateaboutUs');
 Route::get('/deletaboutUs/{id}', [aboutUsController::class, 'deletaboutUs'])->name('deletaboutUs');
+
+
 
 //Contact Us Daynamic
 Route::post('/inquery', [FontendContact::class, 'inqueryodhyyon'])->name('inquery');
